@@ -1,0 +1,159 @@
+* {
+    margen :  0 ;
+    relleno :  0 ;
+    tamaño de caja : cuadro de borde;
+    decoración de texto : ninguno;
+    familia de fuentes :  'Roboto' , sans-serif;
+}
+
+cuerpo {
+    imagen de fondo : url(.. /images/bg4.jpg );
+    tamaño de fondo : cubierta;
+    repetición de fondo : sin repetición;
+    posición de fondo : centro;
+    archivo adjunto de fondo : fijo;
+}
+
+principal {
+    ancho :  100 % ;
+    relleno :  20 px ;
+    margen : automático;
+    margen superior :  100 px ;
+}
+
+. contenedor__todo {
+    ancho :  100 % ;
+    ancho máximo :  800 px ;
+    margen : automático;
+    posición : relativa;
+}
+
+. caja__trasera {
+    ancho :  100 % ;
+    relleno :  10 px  20 px ;
+    pantalla : flexible;
+    justificar-contenido : centro;
+    -webkit-backdrop-filter :  desenfoque ( 10 px );
+    filtro de fondo :  desenfoque ( 10 px );
+    color de fondo :  rgba ( 0 ,  128 ,  255 ,  0.5 );
+}
+
+. caja__trasera  div {
+    margen :  100 px  40 px ;
+    color : blanco;
+    transición : los 500 ms ;
+}
+
+. caja__trasera  div  p ,
+. botón caja__trasera  {
+    margen superior :  30 px ;
+}
+. caja__trasera  div  h3 {
+    peso de fuente :  400 ;
+    tamaño de fuente :  26 px ;
+}
+
+. caja__trasera  div  p {
+    tamaño de fuente :  16 px ;
+    peso de fuente :  300 ;
+}
+
+. botón caja__trasera  {
+    relleno :  10 px  40 px ;
+    borde :  2 px sólido #fff ; _
+    tamaño de fuente :  14 px ;
+    fondo : transparente;
+    peso de fuente :  600 ;
+    cursor : puntero;
+    color : blanco;
+    esquema : ninguno;
+    transición : los 300 ms ;
+}
+
+. boton caja__trasera  : hover {
+    fondo :  #fff ; _
+    color :  # 46A2FD ;
+}
+
+. contenedor__login-registro {
+    pantalla : flexible;
+    alinear elementos : centro;
+    ancho :  100 % ;
+    ancho máximo :  380 px ;
+    posición : relativa;
+    arriba :  -185 px ;
+    izquierda :  10 px ;
+/*La transicion va despues del codigo JS*/
+    transición : izquierda 500 ms  cubic-bezier ( 0.175 ,  0.885 ,  0.320 ,  1.275 );
+}
+
+. formulario contenedor__login-registro  {
+    ancho :  100 % ;
+    relleno :  80 px  20 px ;
+    fondo : blanco;
+    posición : absoluta;
+    borde-radio :  20 px ;
+}
+
+. contenedor__login-registrar  formulario  h2 {
+    tamaño de fuente :  30 px ;
+    alineación de texto : centro;
+    margen inferior :  20 px ;
+    color :  # 46A2FD ;
+}
+
+. contenedor__entrada de formulario de registro de inicio de  sesión { 
+    ancho :  100 % ;
+    margen superior :  20 px ;
+    relleno :  10 px ;
+    borde : ninguno;
+    fondo :  # F2F2F2 ;
+    tamaño de fuente :  16 px ;
+    esquema : ninguno;
+}
+
+. contenedor__inicio de sesión- botón de formulario de registro  { 
+    relleno :  10 px  40 px ;
+    margen superior :  40 px ;
+    borde : ninguno;
+    tamaño de fuente :  14 px ;
+    fondo :  # 46A2FD ;
+    peso de fuente :  600 ;
+    cursor : puntero;
+    color : blanco;
+    esquema : ninguno;
+}
+
+. formulario__login {
+    opacidad :  1 ;
+    pantalla : bloque;
+}
+. formulario__registrar {
+    pantalla : ninguno;
+}
+
+Pantalla @media y ( ancho máximo :  850 px ){
+principal {
+        margen superior :  50 px ;
+    }
+. caja__trasera {
+        ancho máximo :  350 px ;
+        altura :  300 píxeles ;
+        dirección de flexión : columna;
+        margen : automático;
+    }
+    . caja__trasera  div {
+        margen :  0 píxeles ;
+        posición : absoluta;
+    }
+    
+    . contenedor__login-registro {
+        arriba :  -10 píxeles ;
+        izquierda :  -5 px ;
+        margen : automático;
+    }
+    . formulario contenedor__login-registro  {
+        posición : relativa;
+    }
+}
+    

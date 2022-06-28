@@ -1,0 +1,77 @@
+.div{
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    color:aliceblue;
+
+}
+
+.imgpeg{
+    width: 400px;
+    height: 400px;
+    border-radius: 100%;
+}
+
+.info .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap:1.5rem;
+}
+
+.info .box-container .box{
+    padding:5rem;
+    text-align: center;
+    border:var(--border);    
+}
+
+.info .box-container .box h1{
+    color:aliceblue;
+    margin-top: 20px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.info .box-container .box p{
+    color:aliceblue;
+    margin-top: 20px;
+    text-align: justify;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.info .box-container .box .icons a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    border:var(--border);
+    color:#fff;
+    background:black;
+    margin:.7rem;
+}
+
+.info .box-container .box .icons a:hover{
+    background:var(--main-color);
+    
+}
+
+.info .box-container .box .price{
+    color: #fff;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+    margin-top: 30px;
+}
+
+.info .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
+
+.info .box-container .box input{
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+}
